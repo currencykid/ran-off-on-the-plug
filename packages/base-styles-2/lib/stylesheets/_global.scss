@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background: $dark; 
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+.main, .footer, .header{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 $hmargin;
+  max-width: 1200px;
+  background: $dark; 
+}
+
+.main{
+  margin-bottom: $vmargin;
+}
+
+a{
+  cursor: pointer;
+  color: $highlight; 
+
+}
+
+.nounderline{
+  text-decoration: none !important;  
+}
+
+a:hover{
+  cursor: pointer;
+  color: $highlight; 
+  text-decoration: none !important;  
+}
+
+a:focus{
+  cursor: pointer;
+  color: $highlight; 
+  text-decoration: none !important;  
+}
+
+posts-category:hover{
+  cursor: pointer;
+  color: $highlight; 
+}
+
+p, h4{
+  color: #BDBDBD; 
+}
+
+.page-title{
+  margin-bottom: $vmargin*2;
+  color: $highlight; 
+}
+
+.btn-primary{
+  background: $dark; 
+  color: $highlight;
+  border-color: $highlight; 
+  &:hover{
+    color: #000; 
+    background: $highlight;
+    border-color: $highlight; 
+  }
+  &:focus, &:active{
+    outline: none !important;
+    background:none !important; 
+    color: $highlight; 
+    border-color: $highlight; 
+  }
+
+}
+
+ul.dropdown-menu{
+  background: #000; 
+}
+.dropdown-item.active, .dropdown-item.active:focus, .dropdown-item.active:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: $dark;
+  outline: 0;
+}
+
+.btn-group, .btn-group.open .dropdown-toggle {
+  color: #FFEA00;
+  background: #000;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+      color: #2b2d2f;
+          text-decoration: none;
+              background-color: $dark;
+            }
