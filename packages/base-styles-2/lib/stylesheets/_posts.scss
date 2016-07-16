@@ -71,7 +71,11 @@
   @include activeHover;
   width: 100%;
   background: $highlight;
-  color: #fff;
+  color: $dark;
+  &:hover{
+    background: $dark; 
+    color: $highlight; 
+  }
   
 }
 
@@ -128,6 +132,12 @@
     text-decoration: none;
   }
 }
+.upvote-button:hover {
+      background: $highlight;
+          color: #000;
+              border-color: $highlight;
+                  text-decoration: none;
+                }
 
 .posts-item-content{
   flex-grow: 1;

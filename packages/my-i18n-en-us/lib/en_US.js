@@ -2,7 +2,7 @@ Telescope.strings.en = {
   "forms.submit": "Submit",
   "forms.cancel": "Cancel",
 
-  "posts.new_post": "New Post",
+  "posts.new_post": "Submit Link",
   "posts.edit": "Edit",
   "posts.edit_success": "Post “{title}” edited.",
   "posts.delete": "Delete",
@@ -27,7 +27,7 @@ Telescope.strings.en = {
   "posts.daily": "Daily",
   "posts.clear_thumbnail": "Clear Thumbnail",
   "posts.enter_thumbnail_url": "Enter URL",
-  "posts.created_message": "Post created.",
+  "posts.created_message": "Link submitted successfully. Nice!",
   "posts.rate_limit_error": "Please wait {details} seconds before posting again.",
 
   "comments.comments": "Comments",

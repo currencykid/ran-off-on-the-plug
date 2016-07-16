@@ -28,7 +28,7 @@ nova:email
 #nova:base-styles
 nova:base-routes
 nova:email-templates
-nova:i18n-en-us
+#nova:i18n-en-us
 
 accounts-password
 accounts-twitter
@@ -41,6 +41,7 @@ nova:debug
 ############ Your Packages ############
 base-components-2
 base-styles-2
+my-i18n-en-us
 
 # my-custom-package
 #custom-package
