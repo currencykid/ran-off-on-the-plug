@@ -13,11 +13,13 @@ export default UsersAccountForm;
 
 // customize Accounts.ui
 
+/*
 Accounts.ui.config({
   passwordSignupFields: 'USERNAME_AND_EMAIL',
   onSignedInHook: () => {},
   onSignedOutHook: () => {},
 });
+*/ 
 
 class AccountsButton extends Accounts.ui.Button {
   render () {
