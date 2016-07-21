@@ -13,7 +13,7 @@ nova:search
 nova:notifications
 nova:getting-started
 nova:categories
-nova:share
+#nova:share
 nova:voting
 nova:forms
 nova:embedly
@@ -32,16 +32,17 @@ nova:email-templates
 
 #accounts-password
 accounts-twitter
-# accounts-facebook
-
+accounts-facebook
 ############ Debug Packages ############
 
-nova:debug
+#nova:debug
 
 ############ Your Packages ############
 base-components-2
 base-styles-2
 my-i18n-en-us
+custom-share
 
 # my-custom-package
 #custom-package
+service-configuration

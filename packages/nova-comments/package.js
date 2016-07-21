@@ -13,7 +13,7 @@ Package.onUse(function (api) {
     'nova:lib@0.26.4-nova',
     'nova:settings@0.26.4-nova',
     'nova:posts@0.26.4-nova',
-    'nova:users@0.26.4-nova'
+   'nova:users@0.26.4-nova'
   ]);
 
   api.use([

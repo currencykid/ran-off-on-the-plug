@@ -15,7 +15,7 @@ const PostsPage = ({document, currentUser}) => {
 
       <div className="posts-page-body" dangerouslySetInnerHTML={htmlBody}></div>
 
-      {/*<SocialShare url={ Posts.getLink(post) } title={ post.title }/>*/}
+      <Telescope.components.SocialShare url={ Posts.getLink(post) } title={ post.title }/>
 
       <Telescope.components.PostsCommentsThread document={post} currentUser={currentUser}/>
 

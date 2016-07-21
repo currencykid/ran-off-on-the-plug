@@ -78,3 +78,7 @@ Telescope.registerComponent("UsersName",            require('./users/UsersName.j
 Telescope.registerComponent("UsersMenu",            require('./users/UsersMenu.jsx'));
 Telescope.registerComponent("UsersAccountMenu",     require('./users/UsersAccountMenu.jsx'));
 Telescope.registerComponent("UsersAccountForm",     require('./users/UsersAccountForm.jsx'));
+
+// share
+
+Telescope.registerComponent("SocialShare", require('../../custom-share/lib/common/social_share.jsx')); 

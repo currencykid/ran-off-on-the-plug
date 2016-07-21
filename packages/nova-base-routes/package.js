@@ -15,7 +15,7 @@ Package.onUse(function (api) {
 
     'nova:core@0.26.4-nova',
     'nova:posts@0.26.4-nova',
-    'nova:users@0.26.4-nova',
+   'nova:users@0.26.4-nova',
     'nova:comments@0.26.4-nova',
 
     // third-party packages

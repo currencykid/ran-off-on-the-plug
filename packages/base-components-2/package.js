@@ -13,9 +13,10 @@ Package.onUse(function (api) {
     // Nova packages
     'nova:core@0.26.4-nova',
     'nova:posts@0.26.4-nova',
-    'nova:users@0.26.4-nova',
     'nova:comments@0.26.4-nova',
     'nova:share@0.26.4-nova',
+    'nova:users@0.26.4-nova', 
+    'custom-share', 
 
     // third-party packages
     'fortawesome:fontawesome@4.5.0',

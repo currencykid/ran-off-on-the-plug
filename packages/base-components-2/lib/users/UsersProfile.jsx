@@ -19,7 +19,7 @@ const UsersProfile = ({user, currentUser}) => {
       <p>{user.telescope.bio}</p>
       <ul>
         {twitterName ? <li><a href={"http://twitter.com/" + twitterName}>@{twitterName}</a></li> : null }
-        {user.telescope.website ? <li><a href={user.telescope.website}>{user.telescope.website}</a></li> : null }
+        {/* {user.telescope.website ? <li><a href={user.telescope.website}>{user.telescope.website}</a></li> : null } */}
         {Users.is.admin(currentUser) ? <li><Link to={Users.getEditUrl(user)}><FormattedMessage id="users.edit_account"/></Link></li> : null}
       </ul>
       <h3><FormattedMessage id="users.posts"/></h3>

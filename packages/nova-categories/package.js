@@ -12,7 +12,7 @@ Package.onUse(function (api) {
   api.use([
     'nova:core@0.26.4-nova',
     'nova:posts@0.26.4-nova',
-    'nova:users@0.26.4-nova'
+   'nova:users@0.26.4-nova',
   ]);
 
   api.mainModule("lib/server.js", "server");
