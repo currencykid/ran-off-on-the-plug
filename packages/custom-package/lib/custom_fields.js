@@ -42,6 +42,7 @@ so we also add our new field to that object:
 
 Users.removeField('telescope.website');
 Users.removeField('telescope.twitterUsername');
+Users.removeField('telescope.notifications_posts');
 
 import PublicationUtils from 'meteor/utilities:smart-publications';
 
