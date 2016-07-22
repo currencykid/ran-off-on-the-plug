@@ -17,8 +17,9 @@ const UsersProfile = ({user, currentUser}) => {
       <Telescope.components.HeadTags url={Users.getProfileUrl(user, true)} title={Users.getDisplayName(user)} description={user.telescope.bio} />
       <h2 className="page-title">{Users.getDisplayName(user)}</h2>
       <p>{user.telescope.bio}</p>
-      <ul>
-        {twitterName ? <li><a href={"http://twitter.com/" + twitterName}>@{twitterName}</a></li> : null }
+      <ul className="user-info">
+        <p><i className="fa fa-plug karma-icon" aria-hidden="true"></i>&nbsp;&nbsp;{user.telescope.karma}</p>
+        {twitterName ? <li><a href={"http://twitter.com/" + twitterName}><i className="fa fa-twitter twitter-user-icon" aria-hidden="true"></i>@{twitterName}</a></li> : null }
         {/* {user.telescope.website ? <li><a href={user.telescope.website}>{user.telescope.website}</a></li> : null } */}
         {Users.is.admin(currentUser) ? <li><Link to={Users.getEditUrl(user)}><FormattedMessage id="users.edit_account"/></Link></li> : null}
       </ul>
