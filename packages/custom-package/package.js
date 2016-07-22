@@ -10,7 +10,7 @@ Package.onUse( function(api) {
     'fourseven:scss',
 
     'nova:core',
-    'nova:base-components',
+    'base-components-2',
     'nova:posts',
     'nova:users'
   ]);
@@ -24,12 +24,12 @@ Package.onUse( function(api) {
   ], ['client']);
 
   api.addFiles([
-    'lib/server/templates.js'
+    //'lib/server/templates.js'
   ], ['server']);
 
   api.addAssets([
-    'lib/server/emails/customNewPost.handlebars',
-    'lib/server/emails/customEmail.handlebars'
+    //'lib/server/emails/customNewPost.handlebars',
+    //'lib/server/emails/customEmail.handlebars'
   ], ['server']);
 
 });

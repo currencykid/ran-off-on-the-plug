@@ -7,6 +7,8 @@ We'll do that by adding a custom field to the Posts collection.
 Note that this requires our custom package to depend on nova:posts and nova:users.
 */
 
+
+/*
 Posts.addField(
   {
     fieldName: 'color',
@@ -31,11 +33,15 @@ Posts.addField(
     }
   }
 );
+*/
 
 /*
 The main post list view uses a special object to determine which fields to publish,
 so we also add our new field to that object:
 */
+
+Users.removeField('telescope.website');
+Users.removeField('telescope.twitterUsername');
 
 import PublicationUtils from 'meteor/utilities:smart-publications';
 
